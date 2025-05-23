@@ -91,6 +91,7 @@
   fetch('https://script.google.com/macros/s/AKfycbzsAAP6VT5wt86hDW8-YawzHebplWA7IKeMaVn8eXbKhRGFpWSBE1Pe15yQ_2kPPML-/exec')
     .then(res => res.json())
     .then(data => {
+         const lastThree = data.slice(-3).reverse();
       document.getElementById('messages').innerHTML = data.reverse().map(row => `
         <div class="message">
           <p><strong>${row[0]}</strong> — ${row[1]}</p>
