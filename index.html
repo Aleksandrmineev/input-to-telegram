@@ -87,20 +87,6 @@
 
     </div>
 <script src="js/main.js"></script>
-<script>
-fetch('https://script.google.com/macros/s/AKfycbzsAAP6VT5wt86hDW8-YawzHebplWA7IKeMaVn8eXbKhRGFpWSBE1Pe15yQ_2kPPML-/exec')
-  .then(res => res.json())
-  .then(data => {
-    const lastThree = data.reverse().slice(0, 3); // сначала разворачиваем, потом берём первые 3
-    document.getElementById('messages').innerHTML = lastThree.map(row => `
-      <div class="message">
-        <p><strong>${row[0]}</strong> — ${row[1]}</p>
-        <p>${row[2]}</p>
-        <p><em>${row[3]}</em></p>
-      </div>
-    `).join('');
-  });
-</script>
 </body>
 
 </html>
