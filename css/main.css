@@ -1,0 +1,25 @@
+#messages {
+  max-width: 800px;
+  margin: 0 auto; /* Центрирует блок по горизонтали */
+  padding: 20px;
+  text-align: left; /* Контент внутри прижат влево */
+}
+
+#messages .message {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #473d2a;
+}
+
+h2 {
+  text-align: center; /* Сам заголовок по центру */
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
