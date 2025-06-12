@@ -1,5 +1,5 @@
-@import "header.css";
-@import "hero.css";
-@import "main.css";
-@import "footer.css";
-@import "media.css";
+@import url("header.css");
+@import url("hero.css");
+@import url("main.css");
+@import url("footer.css");
+@import url("media.css");
